@@ -5,7 +5,6 @@ import { ProdutoService } from "../services/produto.service";
 
 @Controller("/produto")
 export class ProdutoController {
-  produtoRepository: any;
   constructor(private readonly produtoService: ProdutoService) { }
 
   @Get()

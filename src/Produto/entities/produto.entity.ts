@@ -1,5 +1,5 @@
 import { IsNotEmpty } from "class-validator"
-import { Categoria } from "src/Categoria/entities/categoria.entity"
+import { Categoria } from "../../Categoria/entities/categoria.entity"
 import { Column, Entity, ManyToOne, PrimaryGeneratedColumn, UpdateDateColumn } from "typeorm"
 
 @Entity({name: "tb_produto"})
